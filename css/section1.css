@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: 'Clash Display', sans-serif;
+    background: #FFFFFF
+}
+
+.container {
+    margin-left: 175px;
+    width: 1090px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    margin-top: 57px;
+
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+
+.logo-block .tm {
+    margin-top: -25px;
+}
+
+.header .menu {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 325px;
+}
+
+.header .menu .links {
+    font-size: 26px;
+}
+
+.header .menu .link {
+    font-size: 26px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+
+/*                                                                      .button-block {
+                                                                        position: relative;
+                                                                        height: 60px;
+                                                                        width: 180px;
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                    }
+
+                                                                    .button-block .button {
+                                                                        position: absolute;
+                                                                        width: 100%;
+                                                                        height: 100%;
+                                                                        z-index: -1;
+                                                                    }
+
+                                                                    .button-block .text {
+                                                                    color: white;
+                                                                    }
+                                                                        */
+
+.header .button {
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/section1/buttons/rectangle-header.svg');
+    /* ../ - вышли на один уровень вверх а оттуда пошли по указанному пути до картинки*/
+    background-size: cover;
+    color: white;
+
+}
+
+
+
+.text-block .title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 5px;
+    width: 600px;
+    margin-top: 215px;
+}
+
+.text-block .text {
+    font-size: 20px;
+    line-height: 12px;
+}
+
+.button-and-watch-video-block {
+    padding-top: 50px;
+    width: 400px;
+    display: flex;
+}
+
+.button-and-watch-video-block .button {
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background-image: url('../images/section1/buttons/rectangle1.svg');
+    background-size: cover;
+    color: white;
+}
+
+.button-block {
+    display: flex;
+    position: relative;
+}
+
+.button-block .arrow {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+
+.watch-video-block {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.watch-video-block .icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.watch-video-block .icon-block img {
+    position: absolute;
+}
+
+.watch-video-block .text {
+    position: absolute;
+    left: 290px;
+    font-size: 18px;
+}
+
+.zigzag-block {
+    position: absolute;
+    left: -25px;
+    top: 630px;
+}
+
+
+.phone1 {
+    position: absolute;
+    left: 625px;
+    top: 80px;
+    z-index: 1;
+}
+
+.phone-body {
+    position: absolute;
+    left: 604px;
+    top: 61px;
+    z-index: 0;
+}
+
+.phone2 {
+    position: absolute;
+    left: 730px;
+    top: 182px;
+    z-index: -1;
+}
+
+.phone3 {
+    position: absolute;
+    left: 835px;
+    top: 245px;
+    z-index: -2;
+}
+
+
+.ellipse1 {
+    position: absolute;
+    left: 720px;
+    top: 135px;
+    z-index: -3;
+}
+
+.ellipse2 {
+    position: absolute;
+    left: 692px;
+    top: 160px;
+    z-index: -4;
+}
+
+.ellipse3 {
+    position: absolute;
+    left: 756px;
+    top: 116px;
+    z-index: -5;
+}
+
+.red-ellipse {
+    position: absolute;
+    left: 684px;
+    top: 339px;
+    z-index: -5;
+}
+
+
+.star1 {
+    position: absolute;
+    left: 1150px;
+    top: 19px;
+
+}
+
+.star2 {
+    position: absolute;
+    left: -110px;
+    top: 110px;
+
+}
+
+.star3 {
+    position: absolute;
+    left: 125px;
+    top: 690px;
+
+}
+
+.star8 {
+    position: absolute;
+    left: 725px;
+    top: 655px;
+
+}
+
+
+/* Вопросы:
+1. не смог скачать телефоны и эллипсы одним элементом, соответсвенно потратил много времени на их асстановку  на макете
+2. блок button-and-watch-video-block нуждается в доработке (криво написан)
+3. почему не вижу покрашенного в серый цвет контейнера?
+4. как заказачть шрифты?
+*/
