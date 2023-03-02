@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    font-family: 'Clash Display', sans-serif;
+    font-family: 'ClashDisplay-Variable';
     background: #FFFFFF
 }
 
 .container {
     width: 1100px;
     margin: 0 auto;
-                                                /*set section to center*/
+    /*set section to center*/
     position: relative;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .header .menu {
     display: flex;
-    width: 400px;
+    width: 360px;
     align-items: center;
     justify-content: space-between;
     margin-left: 75px;
@@ -38,17 +38,19 @@ body {
 }
 
 .header .menu .links {
-    font-size: 26px;
+    font-family: 'ClashDisplay-Medium';
+    font-size: 20px;
+    font-weight: 500px;
 }
 
 .header .menu .link {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
     color: red;
 }
 
 
-                                                                   /*  .button-block {
+/*  .button-block {
                                                                         position: relative;
                                                                         height: 60px;
                                                                         width: 180px;
@@ -80,7 +82,7 @@ body {
                                                                         background-size: cover;
                                                                         color: white;}*/
 
-                                                                    
+
 
 .header .button {
     border: 1px solid black;
@@ -103,7 +105,7 @@ body {
     font-size: 64px;
     font-weight: 700;
     line-height: 5px;
-    width: 605px;
+    width: 622px;
     margin-top: 215px;
 }
 
@@ -115,11 +117,10 @@ body {
 
 .button-and-watch-video-block {
     padding-top: 50px;
-    width: 400px;
     display: flex;
 }
 
-                                                                            /* .button-and-watch-video-block .button-block {
+/* .button-and-watch-video-block .button-block {
                                                                                 height: 60px;
                                                                                 width: 180px;
                                                                                 display: flex;
@@ -142,11 +143,15 @@ body {
     width: 180px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 15px;
     font-size: 25px;
     color: white;
 }
 
+.arrow {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
 
 .watch-video-block {
     display: flex;
@@ -158,15 +163,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
 }
 
 
 .watch-video-block .text {
     display: flex;
-    left: 290px;
+    padding-left: 20px;
     font-size: 18px;
+    font-weight: bold;
 }
+
 
 .zigzag-block {
     position: absolute;
@@ -203,10 +213,11 @@ body {
 
 }
 
+.red-ellipse {
+    position: absolute;
+    top:105px;
+    left: 55px;
+    z-index: -1;
+}
 
-/* Вопросы:
-1. не смог скачать телефоны и эллипсы одним элементом, соответсвенно потратил много времени на их асстановку  на макете
-2. блок button-and-watch-video-block нуждается в доработке (криво написан)
-3. почему не вижу покрашенного в серый цвет контейнера?
-4. как заказачть шрифты?
-*/
+
