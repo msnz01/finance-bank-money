@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-    margin-left: 175px;
-    width: 1090px;
+    width: 1100px;
+    margin: 0 auto;
+                                                /*set section to center*/
     position: relative;
 }
 
@@ -33,7 +34,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-left: 75px;
-    margin-right: 325px;
+    margin-right: auto;
 }
 
 .header .menu .links {
@@ -47,11 +48,7 @@ body {
 }
 
 
-
-
-
-
-/*                                                                      .button-block {
+                                                                   /*  .button-block {
                                                                         position: relative;
                                                                         height: 60px;
                                                                         width: 180px;
@@ -70,28 +67,43 @@ body {
                                                                     .button-block .text {
                                                                     color: white;
                                                                     }
-                                                                        */
+                                                                        
+
+                                                                    .header .button {
+                                                                        height: 60px;
+                                                                        width: 180px;
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        justify-content: center;
+                                                                        background-image: url('../images/section1/buttons/rectangle-header.svg');
+                                                                        /* ../ - вышли на один уровень вверх а оттуда пошли по указанному пути до картинки
+                                                                        background-size: cover;
+                                                                        color: white;}*/
+
+                                                                    
 
 .header .button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
     height: 60px;
     width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../images/section1/buttons/rectangle-header.svg');
-    /* ../ - вышли на один уровень вверх а оттуда пошли по указанному пути до картинки*/
-    background-size: cover;
+    font-size: 25px;
     color: white;
-
 }
 
-
+.main-block {
+    display: flex;
+}
 
 .text-block .title {
     font-size: 64px;
     font-weight: 700;
     line-height: 5px;
-    width: 600px;
+    width: 605px;
     margin-top: 215px;
 }
 
@@ -100,33 +112,41 @@ body {
     line-height: 12px;
 }
 
+
 .button-and-watch-video-block {
     padding-top: 50px;
     width: 400px;
     display: flex;
 }
 
-.button-and-watch-video-block .button {
+                                                                            /* .button-and-watch-video-block .button-block {
+                                                                                height: 60px;
+                                                                                width: 180px;
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                                padding-left: 30px;
+                                                                                padding-right: 30px;
+                                                                                background-image: url('../images/section1/buttons/rectangle1.svg');
+                                                                                background-size: cover;
+                                                                                color: white;
+                                                                                justify-content: space-between;
+
+                                                                            } */
+
+
+.button-block {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
     height: 60px;
     width: 180px;
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    background-image: url('../images/section1/buttons/rectangle1.svg');
-    background-size: cover;
+    justify-content: center;
+    font-size: 25px;
     color: white;
 }
 
-.button-block {
-    display: flex;
-    position: relative;
-}
-
-.button-block .arrow {
-    position: absolute;
-    top: 20px;
-    left: 150px;
-}
 
 .watch-video-block {
     display: flex;
@@ -138,15 +158,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+  
 }
 
-.watch-video-block .icon-block img {
-    position: absolute;
-}
 
 .watch-video-block .text {
-    position: absolute;
+    display: flex;
     left: 290px;
     font-size: 18px;
 }
@@ -155,64 +172,6 @@ body {
     position: absolute;
     left: -25px;
     top: 630px;
-}
-
-
-.phone1 {
-    position: absolute;
-    left: 625px;
-    top: 80px;
-    z-index: 1;
-}
-
-.phone-body {
-    position: absolute;
-    left: 604px;
-    top: 61px;
-    z-index: 0;
-}
-
-.phone2 {
-    position: absolute;
-    left: 730px;
-    top: 182px;
-    z-index: -1;
-}
-
-.phone3 {
-    position: absolute;
-    left: 835px;
-    top: 245px;
-    z-index: -2;
-}
-
-
-.ellipse1 {
-    position: absolute;
-    left: 720px;
-    top: 135px;
-    z-index: -3;
-}
-
-.ellipse2 {
-    position: absolute;
-    left: 692px;
-    top: 160px;
-    z-index: -4;
-}
-
-.ellipse3 {
-    position: absolute;
-    left: 756px;
-    top: 116px;
-    z-index: -5;
-}
-
-.red-ellipse {
-    position: absolute;
-    left: 684px;
-    top: 339px;
-    z-index: -5;
 }
 
 
