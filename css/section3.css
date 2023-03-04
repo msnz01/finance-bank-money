@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Variable';
+    background: #FFFFFF
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    /*set section to center*/
+    position: relative;
+}
+
+.section3 .main-block {
+    display: flex;
+    padding-top: 200px;
+    position: relative;
+}
+
+.section3 .title-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: red;
+}
+
+.section3 .title-block .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: capitalize;
+    width: 500px;
+}
+
+.section3 .icon-block {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.section3 .icon-block img {
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background: red;
+    padding: 10px;
+}
+
+
+.section3 .icon-block .text-icon-block {
+    font-size: 28px;
+    font-weight: 500px;
+    font-family: 'ClashDisplay-Medium';
+    text-transform: capitalize;
+}
+
+.section3 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+    width: 544px;
+}
+
+.section3 .right-part {
+    position: absolute;
+    left: 512px;
+    top: -25px;
+}
+
+
+.section3 .star {
+    position: absolute;
+    left: 1200px;
+    top: 55px;
+}

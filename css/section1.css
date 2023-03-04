@@ -112,6 +112,7 @@ body {
 .text-block .text {
     font-size: 20px;
     line-height: 12px;
+    opacity: 0.5;
 }
 
 
@@ -175,6 +176,7 @@ body {
     padding-left: 20px;
     font-size: 18px;
     font-weight: bold;
+    opacity: 0.5;
 }
 
 
@@ -222,119 +224,11 @@ body {
 
 /*-------------------------------------------------section2-----------------------------------------------*/
 
-.main-block-section2 {
-    display: flex;
-    padding-top: 200px;
-}
-
-.main-block-section2 .left-part {
-    position: absolute;
-    left: -173px;
-    top: 1038px;
-}
-
-.main-block-section2 .right-part {
-    padding-left: 564px;
-}
-
-.main-block-section2 .right-part .title-block {
-    width: 550px;
-    padding-bottom: 30px;
-}
-
-.main-block-section2 .right-part .title-block .text {
-    color: red;
-    font-family: 'ClashDisplay-Medium';
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-}
-
-.main-block-section2 .right-part .title-block .title {
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.main-block-section2 .right-part .icon1-block .title-block {
-    display: flex;
-    align-items: center;
-    padding-bottom: 25px;
-}
-
-.main-block-section2 .right-part .icon1-block .title-block .title1 {
-    font-family: 'ClashDisplay-Medium';
-    font-size: 28px;
-    font-weight: 500;
-    padding-left: 17px;
-}
-
-.main-block-section2 .right-part .icon1-block {
-    padding-bottom: 40px;
-}
-
-.main-block-section2 .right-part .icon1-block .text1 {
-    font-size: 18px;
-    line-height: 4px;
-}
-
-.main-block-section2 .right-part .icon2-block {
-    padding-bottom: 40px;
-}
-
-.main-block-section2 .right-part .icon2-block .title-block {
-    display: flex;
-    align-items: center;
-    padding-bottom: 25px;
-}
-
-.main-block-section2 .right-part .icon2-block .title-block .title2 {
-    font-family: 'ClashDisplay-Medium';
-    font-size: 28px;
-    font-weight: 500;
-    padding-left: 17px;
-}
-
-.main-block-section2 .right-part .icon2-block .text2 {
-    font-size: 18px;
-    line-height: 4px;
-}
-
-.main-block-section2 .right-part .icon3-block {
-    padding-bottom: 40px;
-}
-
-.main-block-section2 .right-part .icon3-block .title-block {
-    display: flex;
-    align-items: center;
-    padding-bottom: 25px;
-}
-
-.main-block-section2 .right-part .icon3-block .title-block .title3 {
-    font-family: 'ClashDisplay-Medium';
-    font-size: 28px;
-    font-weight: 500;
-    padding-left: 17px;
-}
-
-.main-block-section2 .right-part .icon3-block .text3 {
-    font-size: 18px;
-    line-height: 4px;
-}
-
-.section2 .red-ellipse22 {
-    position: absolute;
-    top: 1000px;
-    left: 992px;
-}
-
-.section2 .star22 {
-    position: absolute;
-    top: 1150px;
-    left: -150px;
-}
 
 
 /* Вопросы: Может имеет смысл сделать контейнер для каждой секции, 
 ему присвоить position: relative и позиционировать элементы относительно его,
 а то получются слишком большие отступы относительно общего контейнера */
+
+/*---------------------------------------------------section3--------------------------------------------------*/
+
