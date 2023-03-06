@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Variable';
+    background: #FFFFFF
+}
+
+
+.section5 .container {
+    width: 1100px;
+    height: 700px;
+    margin: 0 auto;
+    /*set section to center*/
+    position: relative;
+}
+
+
+.section5 .title-block {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.section5 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.section5 .title-block .title {
+    font-family: 'ClashDisplay-Variable';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 3px;
+    text-transform: capitalize;
+}
+
+
+.section5 .main-block {
+    display: flex;
+}
+
+
+.section5 .main-block .left-part {
+    width: 500px;
+    position: relative;
+    left: -200px;
+    top: -50px;
+}
+
+
+.section5 .main-block .right-part {
+    margin-top: 133px;
+    margin-left: 95px;
+
+}
+
+
+.section5 .main-block .right-part .text {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    width: 600px;
+}
+
+
+.section5 .main-block .right-part .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    width: 464px;
+    margin-bottom: 20px;
+}
+
+
+.section5 .main-block .right-part .icon-block {
+    display: flex;
+    width: 220px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section5 .main-block .right-part .icon-block .icon1 {
+    border: 1px solid #E7BF9F;
+    background-color: #E7BF9F;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+
+.section5 .main-block .right-part .icon-block .icon2 {
+    border: 1px solid #F49392;
+    background-color: #F49392;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+.section5 .main-block .right-part .icon-block .icon3 {
+    border: 1px solid #422F15;
+    background-color: #422F15;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+.section5 .main-block .right-part .icon-block .icon4 {
+    border: 1px solid #F09B83;
+    background-color: #F09B83;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+.section5 .main-block .right-part .icon-block .icon5 {
+    border: 1px solid #8B554D;
+    background-color: #8B554D;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+.section5 .main-block .right-part .signature {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+}

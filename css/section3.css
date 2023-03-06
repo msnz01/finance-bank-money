@@ -4,8 +4,9 @@ body {
     background: #FFFFFF
 }
 
-.container {
+.section3 .container {
     width: 1100px;
+    height: 800px;
     margin: 0 auto;
     /*set section to center*/
     position: relative;
@@ -13,12 +14,11 @@ body {
 
 .section3 .main-block {
     display: flex;
-    padding-top: 65px;
-    /* position: relative; */
+ 
 }
 
 .section3 .left-part {
-    padding-top: 200px;
+    margin-top: 200px;
 }
 
 
@@ -43,10 +43,10 @@ body {
 
 .section3 .icon-block {
     display: flex;
-    padding-top: 50px;
+    margin-top: 50px;
     align-items: center;
     gap: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .section3 .icon-block img {
@@ -82,6 +82,6 @@ body {
 
 .section3 .star {
     position: absolute;
-    left: 1170px;
-    top: 1850px;
+    left: 1225px;
+    top: 56px;
 }

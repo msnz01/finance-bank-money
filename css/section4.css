@@ -4,8 +4,9 @@ body {
     background: #FFFFFF
 }
 
-.container {
+.section4 .container {
     width: 1100px;
+    height: 700px;
     margin: 0 auto;
     /*set section to center*/
     position: relative;
@@ -13,7 +14,7 @@ body {
 
 .section4 .main-block {
     display: flex;
-    position: relative;
+   
 }
 
 /*Вопросы: левую часть в секции 4 смог подвинуть левее границы контейнера только задав ей position absolute. 
@@ -22,7 +23,7 @@ body {
 .section4 .main-block .left-part {
     left: -173px;
     top: -115px;
-    position: absolute;
+    position: relative;
 }
 
 
@@ -30,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .section4 .title-block img {
@@ -53,8 +54,9 @@ body {
 
 .section4 .right-part {
     width: 500px;
-    padding-left: 593px;
-    padding-top: 108px;
+    position: relative;
+    left: -140px;
+    top: 108px;
 }
 
 
@@ -70,15 +72,15 @@ body {
 
 .section4 .star6 {
     position: absolute;
-    left: 444px;
-    top: 2424px;
+    left: 490px;
+    top: -100px;
 }
 
 
 .section4 .star7 {
     position: absolute;
     left: 950px;
-    top: 3050px;
+    top: 500px;
 }
 
 
