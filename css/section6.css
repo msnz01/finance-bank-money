@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Variable';
+    background: #FFFFFF
+}
+
+
+.section6 .container {
+    width: 1100px;
+    height: 1200px;
+    margin: 0 auto;
+    /*set section to center*/
+    position: relative;
+}
+
+
+.section6 .title-block {
+    margin-top: 215px;
+}
+
+
+
+.section6 .title-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: red;
+}
+
+.section6 .title-block .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 5px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+
+.section6 .main-block {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+/*------------------------------- .left-part .h1 ------------------------------------------------*/
+
+.section6 .left-part .h1 {
+    border: 1px solid #FF5555;
+    border-radius: 10px;
+    background-color: #FF5555;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .left-part .h1 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+.section6 .left-part .h1 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+/*------------------------------- .left-part .h2 ------------------------------------------------*/
+
+.section6 .left-part .h2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .left-part .h2 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+.section6 .left-part .h2 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: black;
+    opacity: 0.5;
+}
+
+/*---------------------------------------- .left-part .h3 -----------------------------------------------*/
+
+.section6 .left-part .h3 {
+    border: 1px solid #FF5555;
+    border-radius: 10px;
+    background-color: #FF5555;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .left-part .h3 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+.section6 .left-part .h3 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+/*----------------------------------- .right-part .h1 ------------------------------------------------------*/
+
+
+.section6 .right-part .h1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .right-part .h1 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+.section6 .right-part .h1 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: black;
+    opacity: 0.5;
+}
+
+
+/*----------------------------------- .right-part .h2 ------------------------------------------------------*/
+
+
+.section6 .right-part .h2 {
+    border: 1px solid #FF5555;
+    border-radius: 10px;
+    background-color: #FF5555;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .right-part .h2 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+
+.section6 .right-part .h2 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+/*----------------------------------- .right-part .h3 ------------------------------------------------------*/
+
+
+
+.section6 .right-part .h3 {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 490px;
+    padding: 55px 40px 35px 40px;
+
+}
+
+.section6 .right-part .h3 .title {
+    font-family: 'ClashDisplay-Semibold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 40px;
+}
+
+
+.section6 .right-part .h3 .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: black;
+    opacity: 0.5;
+}
+
+.section6 .star11 {
+    position: absolute;
+    top: 105px;
+    left: 635px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

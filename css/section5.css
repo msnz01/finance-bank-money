@@ -106,7 +106,7 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color:#E7BF9F ;
+    background-color: #E7BF9F;
     background-image: url(../images/section5/icon1.svg);
     background-size: cover;
 }
@@ -124,7 +124,7 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color:#F49392 ;
+    background-color: #F49392;
     background-image: url(../images/section5/icon2.svg);
     background-size: cover;
 }
@@ -142,7 +142,7 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color:#422F15 ;
+    background-color: #422F15;
     background-image: url(../images/section5/icon3.svg);
     background-size: cover;
 
@@ -161,10 +161,10 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color:#F09B83 ;
+    background-color: #F09B83;
     background-image: url(../images/section5/icon4.svg);
     background-size: cover;
-    
+
 }
 
 
@@ -180,7 +180,7 @@ body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color:#8B554D ;
+    background-color: #8B554D;
     background-image: url(../images/section5/icon5.svg);
     background-size: cover;
 
@@ -194,4 +194,11 @@ body {
     line-height: 28px;
     text-transform: capitalize;
     margin-top: 30px;
+}
+
+
+.section5 .star9 {
+    position: absolute;
+    top: 720px;
+    left: -130px;
 }
