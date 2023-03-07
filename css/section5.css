@@ -85,65 +85,106 @@ body {
 
 .section5 .main-block .right-part .icon-block {
     display: flex;
-    width: 220px;
-    height: 70px;
+    /* width: 275px; */
+    width: 500px;
+    /*для увеличенных иконок*/
+    height: 90px;
     align-items: center;
     justify-content: space-between;
 }
 
 
 .section5 .main-block .right-part .icon-block .icon1 {
-    border: 1px solid #E7BF9F;
+    /* border: 1px solid #E7BF9F;
     background-color: #E7BF9F;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     height: 40px;
-    width: 40px;
+    width: 40px; */
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#E7BF9F ;
+    background-image: url(../images/section5/icon1.svg);
+    background-size: cover;
 }
 
 
 .section5 .main-block .right-part .icon-block .icon2 {
-    border: 1px solid #F49392;
+    /* border: 1px solid #F49392;
     background-color: #F49392;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     height: 30px;
-    width: 30px;
+    width: 30px; */
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#F49392 ;
+    background-image: url(../images/section5/icon2.svg);
+    background-size: cover;
 }
 
 
 .section5 .main-block .right-part .icon-block .icon3 {
-    border: 1px solid #422F15;
+    /* border: 1px solid #422F15;
     background-color: #422F15;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     height: 30px;
-    width: 30px;
+    width: 30px; */
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#422F15 ;
+    background-image: url(../images/section5/icon3.svg);
+    background-size: cover;
+
 }
 
 
 .section5 .main-block .right-part .icon-block .icon4 {
-    border: 1px solid #F09B83;
+    /* border: 1px solid #F09B83;
     background-color: #F09B83;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     height: 30px;
-    width: 30px;
+    width: 30px; */
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#F09B83 ;
+    background-image: url(../images/section5/icon4.svg);
+    background-size: cover;
+    
 }
 
 
 .section5 .main-block .right-part .icon-block .icon5 {
-    border: 1px solid #8B554D;
+    /* border: 1px solid #8B554D;
     background-color: #8B554D;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    background-image: url(../images/section5/icon5.svg);
     height: 30px;
-    width: 30px;
+    width: 30px; */
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#8B554D ;
+    background-image: url(../images/section5/icon5.svg);
+    background-size: cover;
+
 }
 
 
@@ -153,4 +194,5 @@ body {
     font-size: 18px;
     line-height: 28px;
     text-transform: capitalize;
+    margin-top: 30px;
 }
