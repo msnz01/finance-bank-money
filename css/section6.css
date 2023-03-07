@@ -41,7 +41,7 @@ body {
 
 .section6 .main-block {
     display: flex;
-    gap:34px;
+    gap:45px;
     margin-bottom: 150px;
 }
 
@@ -51,8 +51,8 @@ body {
     border: 1px solid #FF5555;
     border-radius: 10px;
     background-color: #FF5555;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 
@@ -84,8 +84,8 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     background-color: white;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 
@@ -118,8 +118,8 @@ body {
     border: 1px solid #FF5555;
     border-radius: 10px;
     background-color: #FF5555;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 
@@ -152,8 +152,8 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     background-color: white;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 
@@ -188,8 +188,8 @@ body {
     border: 1px solid #FF5555;
     border-radius: 10px;
     background-color: #FF5555;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 
@@ -224,8 +224,8 @@ body {
     border: 1px solid white;
     border-radius: 10px;
     background-color: white;
-    width: 490px;
-    padding: 55px 0px 35px 40px;
+    /* width: 490px; */
+    padding: 55px 55px 35px 55px;
 
 }
 

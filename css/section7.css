@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Variable';
+    background: #FFFFFF
+}
+
+
+.section7 .container {
+    width: 1100px;
+    height: 508px;
+    margin: 0 auto;
+    /*set section to center*/
+    position: relative;
+    background-color: black;
+}
+
+
+.section7 .main-block {
+    display: flex;
+}
+
+
+.section7 .main-block .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 550px;
+    margin-top: 179px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+
+.section7 .main-block .text {
+    font-family: 'ClashDisplay-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+
+
+.section7 .main-block .button-block {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    height: 60px;
+    width: 208px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-left: 90px;
+}
+
+
+.section7 .main-block .ellipses {
+    position: relative;
+    top: -167px;
+    left: 0px;
+}
+
+
+
+.section7 .main-block .right-part {
+    position: relative;
+    left: -45px;
+    top: -255px;
+}
+
+
+.section7 .star8 {
+    position: absolute;
+    top: -69px;
+    left: 1111px;
+}
+
+.section7 .star10 {
+    position: absolute;
+    top: 137px;
+    left: -149px;
+}
+
+.section7 .red-ellipse {
+    position: absolute;
+    top: -175px;
+    left: -165px;
+    z-index: -1;
+}
