@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: 'ClashDisplay-Variable';
+    background: #FFFFFF
+}
+
+
+.section8 .container {
+    width: 1100px;
+    height: 1000px;
+    margin: 0 auto;
+    /*set section to center*/
+    position: relative;
+    margin-top: 200px;
+
+}
+
+.section8 .main-block {
+    display: flex;
+    gap: 70px;
+    margin-left: 85px;
+    margin-bottom: 70px;
+
+
+}
+
+.section8 .logo-block {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section8 .mail-block {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.section8 .phone-block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.section8 .links-block .title {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+
+.section8 .links-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+
+.section8 .legal-block .title {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    text-align: left;
+
+}
+
+
+.section8 .legal-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    width: 117px;
+}
+
+.section8 .product-block .title {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+
+.section8 .product-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.section8 .newsletter-block .title {
+    font-family: 'ClashDisplay-Medium';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-right: 93px;
+}
+
+
+.section8 .newsletter-block .text {
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.section8 .button-block {
+    display: flex;
+    border: 1px solid black;
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    color: black;
+
+}
+
+.section8 .button {
+    border: 1px solid black;
+    color: white;
+    width: 140px;
+    height: 63px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+
+.section8 .footer {
+    padding-top: 25px;
+    text-align: center;
+    border-top: 1px solid rgb(204, 199, 199);
+    font-family: 'ClashDisplay-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+
+}
+
+
+/*Вопросы: 
+
+1. не совсем понял, если фон нашего сайта белый (#FFFFFF),
+то почему в 8 секции в разделе your email появляется еще более белый цвет. Как его задать? 
+
+2. не разобрался, как описать в css горизонтальную динию (в футере),
+которая бы имела разную толщину (из фигмы у меня ее извлечь не получилось)
+
+3. в кнопке suscribe прменил свойство display: grid иначе текст по центру не вставал - это правильное решение?*/
